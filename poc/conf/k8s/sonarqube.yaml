@@ -33,6 +33,6 @@ spec:
         - name: sonarqube
           image: sonarqube:lts
           limits:
-            memory: "4000Mi"
+            memory: 4000Mi
           requests:
-            memory: "2500Mi"
+            memory: 2500Mi
