@@ -35,7 +35,7 @@ spec:
             limits:
               memory: 3000Mi
             requests:
-              memory: 4000Mi
+              memory: 3000Mi
           volumeMounts:
             - name: nexus-data
               mountPath: /nexus-data
