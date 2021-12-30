@@ -32,7 +32,8 @@ spec:
       containers:
         - name: sonarqube
           image: sonarqube:lts
-          limits:
-            memory: 4000Mi
-          requests:
-            memory: 2500Mi
+          resources:
+            limits:
+              memory: 6000Mi
+            requests:
+              memory: 5000Mi
